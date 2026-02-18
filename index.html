@@ -177,14 +177,23 @@ opacity:1;
 transform:translateY(0);
 }
 </style>
+  .bg-video{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  z-index:-2;
+  }
 </head>
 
 <body>
 
 <!-- HERO -->
 <div class="hero">
-<video autoplay muted loop>
-<source src="https://cdn.coverr.co/videos/coverr-ski-resort-party-1601/1080p.mp4" type="video/mp4">
+<video autoplay muted loop playsinline class="bg-video">
+    <source src="background.mp4" type="video/mp4">
 </video>
 <div class="overlay"></div>
 <div>
@@ -261,7 +270,7 @@ transform:translateY(0);
 <h2>🍺 Abonne-toi & reçois une bière offerte</h2>
 <p>Présente ton abonnement via ce lien au bar partenaire</p>
 <br>
-<a href="https://instagram.com" target="_blank" class="btn">S’abonner sur Instagram</a>
+<a href="https://www.instagram.com/foliedoucevaldisere?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="btn">S’abonner sur Instagram</a>
 </div>
 </section>
 
